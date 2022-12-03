@@ -1,0 +1,136 @@
+#main2{
+
+  height:100vh;
+  background-color:aqua;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+
+#head2 {
+width:100%;
+background-color: blue;
+}
+
+.header {
+  text-align: center;
+  width: 100%;
+  background-image: linear-gradient( 129.1deg,  rgba(243,199,83,1) 26.8%, rgba(18,235,207,1) 114.1% );
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-weight: 200;
+  background-color:yellowgreen;
+  margin-bottom:50px;
+height:60px;
+}
+
+.moddel{
+  margin-top: 10px;
+margin-right:20px;
+  float:right;
+  width:30px;
+  height:30px;
+ border:none;
+ border-radius:10px;
+
+}
+.moddel:hover{
+  color:#cf2610;
+  background-color: #0eddcd;
+  cursor:pointer;
+}
+
+
+
+
+
+.main{
+    border-collapse: collapse;
+          
+}
+
+
+
+.wasnt{
+  padding:20px 40px 20px 40px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+border:0.5px solid rgb(92, 185, 228);
+margin-left:10px;
+border-radius: 35px;
+
+background-image: linear-gradient( 64.3deg,  rgba(254,122,152,0.81) 17.7%, rgba(255,206,134,1) 64.7%, rgba(172,253,163,0.64) 112.1% );
+}
+
+.wasnt:hover{
+
+  background-image: linear-gradient( 102.4deg,  rgba(253,189,85,1) 7.8%, rgba(249,131,255,1) 100.3% );
+cursor: pointer;
+  border:0.5px solid rgb(49, 133, 108);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#secondsection{
+  display: grid;
+  grid-template-rows: 10vh auto;
+ 
+}
+
+
+#secondsectionfirstpart{
+  margin:5px;
+}
+
+.content {
+padding-top:10px;
+
+  overflow: hidden;
+ 
+  width:80%;
+margin-left:10%;
+background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(234,249,249,0.67) 0.1%, rgba(239,249,251,0.63) 90.1% );
+
+}
+
+.collapsible {
+ 
+  background-color: #15a69a;
+background-image: linear-gradient(135deg, #15a69a 0%, #515ae6 100%);
+
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 80%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin-left:10%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+
+.active,.collapsible:hover {
+ 
+  background-color: #0eddcd;
+  background-image: linear-gradient(135deg, #0eddcd 0%, #3d41c0 100%);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  color:#00FF7F;
+}
+
+.logout{
+  background-image: linear-gradient( 359.8deg,  rgba(252,255,222,1) 2.2%, rgba(182,241,171,1) 99.3% );
+  color:#008000;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+border:none;
+height:100%;
+width:100px;
+float:right;
+border:1px solid rgb(92, 185, 228);
+border-radius: 5px;
+}
+
+.logout:hover{
+  background-image: linear-gradient( 90.4deg,  rgba(255,220,163,1) 21.2%, rgba(129,255,239,1) 90.7% );
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  cursor:pointer;
+  color:red;
+  border-radius: 5px;
+}
